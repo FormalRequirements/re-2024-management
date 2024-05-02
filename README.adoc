@@ -11,9 +11,9 @@
 
 [%header,cols="2,3,1"]
 |===
-| Equipe 
-| Sujet
-| Dépôt
+| Team 
+| Subject
+| Repo
 
 |Benji + Roro
 | {BPS}
@@ -36,7 +36,7 @@
 | https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952963[GitHub]
 
 |Les_Chauves 
-| "BAL 3000 Turbo Max Pro"
+| {BAL3000}
 | https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952971[GitHub]
 
 |Louna + Florian 
@@ -54,7 +54,7 @@
 === Backup Power System (4 groups)
 
 Initial description:
-- Thuy Ngyen slides (https://docs.google.com/presentation/d/1t4lkNHn87pgG1l_maRUyfH3Yvxp6-f2C/edit?usp=drive_link&ouid=109827482140790497874&rtpof=true&sd=true[PPTX])
+- Thuy Nguyen slides (https://docs.google.com/presentation/d/1t4lkNHn87pgG1l_maRUyfH3Yvxp6-f2C/edit?usp=drive_link&ouid=109827482140790497874&rtpof=true&sd=true[PPTX])
 
 [[LMS]]
 === Library Management System (3 groups)
@@ -64,7 +64,21 @@ Initial descriptions :
 - https://www.naukri.com/code360/library/design-a-library-management-system-low-level-design 
 
 [[BAL3000]]
-== BAL 3000 Turbo Max Pro
+=== BAL 3000 Turbo Max Pro
 
 .Theater performance ICE 2024
 image::bal3000.png[width=80%]
+
+== Expected outcomes
+
+[%interactive]
+* [ ] (MUST) A GitHub implementation of the PEGS approach applied to the chosen Case study
+* [ ] (MUST) Description of the team (members, roles)
+* [ ] (SHOULD) The requirements document following the standard plan
+* [ ] (COULD) If possible, the previous requirements document is generated from the repo content (CI/CD ?)
+
+(This list uses the MoSCoW classification criteria.)
+
+== Evaluation criteria 
+
+TBA...
