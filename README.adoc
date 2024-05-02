@@ -1,4 +1,70 @@
 = PEGS method implementation 2024
+:numbered:
+:imagesdir: images
+
+
+:BPS: <<BPS,Backup Power System>>
+:LMS: <<LMS,Library Management System>>
+:BAL3000: <<BAL3000, BAL 3000 Turbo Max Pro>>
 
 == Teams
 
+[%header,cols="2,3,1"]
+|===
+| Equipe 
+| Sujet
+| Dépôt
+
+|Benji + Roro
+| {BPS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952968[GitHub]
+
+|Chris
+| {LMS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952959[GitHub]
+
+|hajar+lou+amélie 
+| {LMS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952964[GitHub]
+
+|ismael 
+| {BPS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952985[GitHub]
+
+|JOALLAND_BETH 
+| {BPS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952963[GitHub]
+
+|Les_Chauves 
+| "BAL 3000 Turbo Max Pro"
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952971[GitHub]
+
+|Louna + Florian 
+| {LMS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952957[GitHub]
+
+|peio et williams
+| {BPS}
+| https://classroom.github.com/publish_hydro_assignment_page_click_event?assignment_id=602554&icon_id=6&repo_id=14952970[GitHub]
+|===
+
+== Case studies
+
+[[BPS]]
+=== Backup Power System (4 groups)
+
+Initial description:
+- Thuy Ngyen slides (https://docs.google.com/presentation/d/1t4lkNHn87pgG1l_maRUyfH3Yvxp6-f2C/edit?usp=drive_link&ouid=109827482140790497874&rtpof=true&sd=true[PPTX])
+
+[[LMS]]
+=== Library Management System (3 groups)
+
+Initial descriptions :
+- https://github.com/ddd-by-examples/library?ref=hackernoon.com#domain-description 
+- https://www.naukri.com/code360/library/design-a-library-management-system-low-level-design 
+
+[[BAL3000]]
+== BAL 3000 Turbo Max Pro
+
+.Theater performance ICE 2024
+image::bal3000.png[width=80%]
