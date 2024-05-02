@@ -54,12 +54,15 @@
 === Backup Power System (4 groups)
 
 Initial description:
+
 - Thuy Nguyen slides (https://docs.google.com/presentation/d/1t4lkNHn87pgG1l_maRUyfH3Yvxp6-f2C/edit?usp=drive_link&ouid=109827482140790497874&rtpof=true&sd=true[PPTX])
+
 
 [[LMS]]
 === Library Management System (3 groups)
 
 Initial descriptions :
+
 - https://github.com/ddd-by-examples/library?ref=hackernoon.com#domain-description 
 - https://www.naukri.com/code360/library/design-a-library-management-system-low-level-design 
 
