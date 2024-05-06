@@ -55,6 +55,23 @@
 
 Initial description:
 
+* A little context description (sorry for the French ;-):
+
+**Thuy a passé 3 ans aux US (2003-2006) pour travailler sur le problème des défaillances de cause commune dans les systèmes de contrôle-commande de sûreté : 4 redondances, mais problème s'il y a le même bug de conception / logiciel dans les 4.
+** Après une étude analytique et une analyse des retours d'expérience, une de conclusions est que les erreurs dans les exigences jouent un plus grand rôle que les erreurs de logiciel proprement dites.
+** En plus, la défense en profondeur peut aussi être mise à mal si plusieurs lignes de défense d'appuient sur les mêmes exigences, ou si la même cause d'erreur affecte deux spécifications différentes.
+** De retour en France en 2007, Thuy s'est donc attaché à améliorer la qualité des exigences de contrôle commande.
+Il a pris un cas d'étude pas trop compliqué, mais pas trop simple non plus : le séquenceur des générateurs diesels (diesel generators load sequencer, ou DGLS).
+** Grosso modo, il faut détecter les conditions où le DGLS doit agir, manipuler un certains nombre de disjonteurs, démarrer le générateur, attendre qu'il soit prêt, puis par intervalles de 5 secondes, relester les équipements alimentés par le générateur.
+** Les exigences du DGLS sont exprimées dans un diagramme fonctionnel (en équivalent de SCADE) déterministe, mais c'est comme de la programmation.
+** Comment s'assurer que le diagramme fonctionnel est correct ?
+Pour cela, Thuy s'est penché sur le BPS, le système physique dont le DGLS est le contrôle commande.
+** Au plus haut niveau, les exigences du BPS sont très simples.
+** Puis les choses se compliquent petit à petit quand on introduit les redondances et la possibilité de maintenance en fonctionnement et la nécessité de faire des tests périodiques.
+** Elles se compliquent encore quand on établit l'architecture du division (redodance) du BPS : capteurs de tension et de fréquence électriques, disjoncteurs, générateur diesel, système de contrôle-commande (le DGLS).
+** Bien sûr, il faut aussi modéliser l'environnement du BPS : le MPS (alimentation électrique principale), l'opérateur humain, et les "clients" que le BPS doit réalimenter.
+** En faisant tout cela, on replace le DGLS dans son contexte opérationnel, et par simulation, on peut vérifier que les exigences sont OK pour toutes les situations envisagées.
+
 - Thuy Nguyen slides (https://docs.google.com/presentation/d/1t4lkNHn87pgG1l_maRUyfH3Yvxp6-f2C/edit?usp=drive_link&ouid=109827482140790497874&rtpof=true&sd=true[PPTX])
 
 
