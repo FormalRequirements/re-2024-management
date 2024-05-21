@@ -101,4 +101,13 @@ image::bal3000.png[width=80%]
 
 == Evaluation criteria 
 
-TBA...
+[%header,cols="2,1,6"]
+|===
+Criteria    | Weight    | Expectations
+
+| 📚 PEGS fidelity | 50% | Respects PEGS plans, rules and principles 
+| ✅ Correctness | 20% | The requirements are sound and match the case study 
+| 🔎 Readibility | 10% | PEGS book and Github repo are easy to read and navigate 
+| ⚙️ Genericity | 10% | How generic is the GitHub (could be added in the free materials on https://requirements.university) 
+| 🤖 PEGS implementation | 10% | Key artefacts (requirements' kinds, validation rules, standard plans) are implemented so that they are possibily used in some CI/CD process in the future 
+|===
